@@ -1,0 +1,83 @@
+# ==========================================
+# 1. Environment & Sensitive Data (.env)
+# ==========================================
+.env
+*.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# ==========================================
+# 2. Python (FastAPI Backend)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.pytest_cache/
+.coverage
+
+# ==========================================
+# 3. Flutter & Dart
+# ==========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/build/
+**/doc/api/
+**/.dart_tool/
+
+# Android build outputs & local config
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/.gradle/
+**/android/app/build/
+
+# iOS / macOS build outputs & ephemeral files
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/Runner.xcworkspace
+**/macos/Flutter/ephemeral/
+
+# Windows build ephemeral files
+**/windows/flutter/ephemeral/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ==========================================
+# 4. IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# ==========================================
+# 5. OS & Miscellaneous Logs
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+flutter_01.log
